@@ -1,0 +1,6 @@
+Al enviar un reporte usando el método POST a la ruta /reportes, el servidor guarda la información en un array en memoria.
+
+Cuando se consulta la ruta GET /reportes, el servidor devuelve una lista con todos los reportes registrados hasta el momento, 
+incluyendo su id, tipo y descripción.
+
+Cada nuevo reporte se agrega a la lista y permanece disponible mientras el servidor esté encendido.
